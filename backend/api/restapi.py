@@ -6,7 +6,7 @@ parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, parent_dir)
 
 # Import modules
-from auth.appauth import authexchange, authreq, authuserProfile
+from utils.auth.appauth import authexchange, authreq, authuserProfile
 
 app = FastAPI()
 # ----------------------
